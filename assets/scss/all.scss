@@ -1,10 +1,24 @@
+//font & icon
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Saira+Extra+Condensed:wght@300&family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+
+//swiper
+@import "swiper/css/bundle";
+
 //bootstrap
 @import "../../node_modules/bootstrap/scss/functions";
-@import "./vendors/variables";
-@import "../../node_modules/bootstrap/scss/variables-dark";
+@import "vendors/variables";
+@import "vendors/variables-dark";
 @import "../../node_modules/bootstrap/scss/maps";
-@import "./vendors/utilities";
+// @import "../../node_modules/bootstrap/scss/root";
+
+@import "vendors/utilities";
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+//components
+@import "./components/button.scss";
+@import "./components/swiper.scss";
+@import "./components/card.scss";
 
 //layout
 @import "./layout/header.scss";
@@ -12,3 +26,9 @@
 
 //pages
 @import "./pages/index.scss";
+
+//utils
+@import "./utils/helpers.scss";
+@import "./utils/animation.scss";
+@import "./utils/text.scss";
+@import "./utils/hover.scss";

@@ -1,0 +1,27 @@
+.btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 4px;
+}
+.btn-white {
+  transition: color 0.3s;
+  &:hover {
+    color: $primary;
+  }
+}
+
+.btn-outline-white {
+  transition: all 0.3s;
+  &:hover {
+    background-color: white;
+    color: $primary;
+  }
+
+  &:active,
+  .active {
+    color: $black;
+    background-color: white;
+  }
+}

@@ -1,0 +1,6 @@
+.card-md {
+  height: 351px;
+  @include media-breakpoint-up(md) {
+    height: 416px;
+  }
+}

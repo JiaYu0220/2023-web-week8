@@ -1,0 +1,26 @@
+.hover-shadow {
+  transition: box-shadow 0.3s;
+  &:hover {
+    box-shadow: $box-shadow;
+  }
+}
+.hover-svg-secondary {
+  path {
+    transition: fill 0.3s;
+  }
+  &:hover path {
+    fill: $secondary;
+  }
+}
+.hover-primary {
+  transition: color 0.3s;
+  &:hover {
+    color: $primary !important;
+  }
+}
+.hover-bg-black-50 {
+  transition: background-color 0.3s;
+  &:hover {
+    background-color: rgba($black, 0.5) !important;
+  }
+}

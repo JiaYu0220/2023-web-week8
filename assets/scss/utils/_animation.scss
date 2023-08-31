@@ -1,0 +1,12 @@
+.anim-rotate-circle {
+  animation: rotate-circle 10s infinite linear;
+}
+
+@keyframes rotate-circle {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

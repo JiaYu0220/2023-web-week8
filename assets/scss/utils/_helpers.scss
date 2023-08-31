@@ -1,0 +1,31 @@
+.container-fluid {
+  @include media-breakpoint-up(sm) {
+    width: 92%;
+    padding: 0;
+  }
+}
+
+.bg-carousel {
+  background: $gradient-outer no-repeat center / 100% 100%,
+    url("../assets/images/carousel_background.png") no-repeat left center /
+      contain;
+}
+.bg-black-50 {
+  background-color: rgba($black, 0.5);
+}
+.bg-alternate-primary4-white {
+  &:nth-child(odd) {
+    background-color: $primary4;
+    color: $white;
+  }
+  &:nth-child(even) {
+    background-color: $white;
+    color: $black;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .w-md-57 {
+    width: calc(4 / 7 * 100%) !important;
+  }
+}
