@@ -1,7 +1,3 @@
-import "./assets/scss/all.scss";
-import Swiper from "swiper/bundle";
-import "bootstrap/dist/js/bootstrap.min.js";
-// import "./assets/js/swiper"; 為什麼我用檔案引入會現 Swiper is not defined
 const introSwiper = new Swiper(".intro-swiper", {
   // 左右箭頭
   navigation: {
@@ -56,5 +52,3 @@ const commentSwiper = new Swiper(".comment-swiper", {
     },
   },
 });
-
-console.log("Hello world!");

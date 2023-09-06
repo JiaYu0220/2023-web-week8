@@ -5,11 +5,6 @@
   }
 }
 
-.bg-carousel {
-  background: $gradient-outer no-repeat center / 100% 100%,
-    url("../assets/images/carousel_background.png") no-repeat left center /
-      contain;
-}
 .bg-black-50 {
   background-color: rgba($black, 0.5);
 }
@@ -22,6 +17,10 @@
     background-color: $white;
     color: $black;
   }
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
 }
 
 @include media-breakpoint-up(md) {
