@@ -1,0 +1,14 @@
+.navbar-menu {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  right: 0;
+  background: $gradient-bottom;
+  z-index: 5;
+  transition: all 0.3s;
+
+  @include media-breakpoint-up(lg) {
+    position: static;
+    background: transparent;
+  }
+}
